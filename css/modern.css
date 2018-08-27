@@ -1,0 +1,57 @@
+.chat{
+  font-size: 15px;
+  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+}
+
+.chat .you-text{
+  padding-left: 3px;
+}
+
+.chat .other-text{
+  padding-left: 3px;
+}
+
+#other-div {
+  position: relative;
+	background: #c4c4c4;
+	border-radius: .4em;
+  width: 30vw;
+}
+
+#other-div:after {
+  content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.344em solid transparent;
+	border-right-color: #c4c4c4;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -0.172em;
+	margin-left: -0.344em;
+}
+
+#you-div{
+  float: right;
+	position: relative;
+	background: #e8e8e8;
+	border-radius: .4em;
+  width: 20vw;
+}
+
+#you-div:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.344em solid transparent;
+	border-left-color: #e8e8e8;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -0.172em;
+	margin-right: -0.344em;
+}
